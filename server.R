@@ -97,8 +97,8 @@ function(input, output, session) {
           ),
           tags$br(), tags$br(),
           
-          tags$p("This app is our submission for the",
-                 tags$a(href = "https://community.rstudio.com/t/shiny-contest-submission-hex-memory-game/25336", "Shiny contest !")),
+          tags$p("Source code",
+                 tags$a(href = "https://github.com/ishansaxena1999/Hex-Game", "here")),
           
           tags$br(), tags$br(),
           actionButton(
